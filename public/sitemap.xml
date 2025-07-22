@@ -5,14 +5,35 @@
     <loc>http://example.org/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/blog/</loc>
+    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
   </url><url>
     <loc>http://example.org/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/data-science/</loc>
+    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/jupyter/</loc>
+    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/post/learningmlweek1/</loc>
+    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/post/test/</loc>
+    <lastmod>2025-07-21T22:48:55+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
@@ -26,13 +47,7 @@
     <loc>http://example.org/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/categories/themes/</loc>
