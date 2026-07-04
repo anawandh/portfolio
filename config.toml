@@ -2,6 +2,13 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Aditya Nawandhar'
 theme = "paper"
+relativeURLs = true
+canonifyURLs = true
+
+[params]
+  name = 'Aditya Nawandhar'
+  bio = 'Software Engineer & Tech Enthusiast'
+  avatar = 'images/Aditya-Nawandhar.jpg'
 
 [menu]
 

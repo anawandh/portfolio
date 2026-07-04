@@ -30,6 +30,14 @@
 
 
 
+
+
+
+
+
+
+
+
 <html
   class="not-ready lg:text-base"
   style="--bg: #faf8f1"
@@ -79,6 +87,8 @@
   
   
   
+  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/6cd101429d386d8a58c448b1b57fa989?s=160&amp;d=identicon" />
   
   
 
@@ -180,19 +190,19 @@
       
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/post/"
+        href="./post/"
         >Blogs</a
       >
       
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/about/"
+        href="./about/"
         >About</a
       >
       
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/contact/"
+        href="./contact/"
         >Contact</a
       >
       
@@ -211,86 +221,493 @@
     >
       
 
+<style>
+   
+  .hero-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+  @media (min-width: 768px) {
+    .hero-container {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
 
-<section class="mb-16">
-  <div class="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-8">
-    <div class="space-y-4">
-      <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl !mb-2">Aditya Nawandhar</h1>
-      <p class="text-xl text-neutral-600 dark:text-neutral-300 font-medium !mt-0">
-        Software Engineer & Tech Enthusiast
-      </p>
-      <p class="text-lg leading-relaxed text-neutral-600 dark:text-neutral-300 max-w-2xl">
-        Welcome to my personal site! I am a passionate developer focused on building high-performance software systems, machine learning applications, and beautiful web user experiences.
-      </p>
+   
+  .avatar-wrapper {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .avatar-box {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+    border: 3px solid #e5e5e5;
+    padding: 2px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: #ffffff;
+    overflow: hidden !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .dark .avatar-box {
+    border-color: #262626;
+    background: #171717;
+  }
+  .avatar-box img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    margin: 0 !important;
+  }
+  @media (min-width: 768px) {
+    .avatar-box {
+      width: 160px !important;
+      height: 160px !important;
+    }
+  }
+
+   
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+  }
+  .contact-links a {
+    text-decoration: none !important;
+    color: #525252 !important;
+    transition: color 0.2s;
+  }
+  .dark .contact-links a {
+    color: #d4d4d4 !important;
+  }
+  .contact-links a:hover {
+    color: #000000 !important;
+  }
+  .dark .contact-links a:hover {
+    color: #ffffff !important;
+  }
+
+   
+  .portfolio-section {
+    margin-bottom: 64px;
+  }
+  .portfolio-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+  }
+  .dark .portfolio-section h2 {
+    border-color: #262626;
+  }
+
+   
+  .edu-item {
+    margin-bottom: 16px;
+  }
+
+   
+  .experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .exp-item {
+    position: relative;
+    padding-left: 24px;
+    border-left: 2px solid #e5e5e5;
+  }
+  .dark .exp-item {
+    border-left-color: #262626;
+  }
+  .exp-item::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #d4d4d4;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    left: -8px;
+    top: 6px;
+    transition: background-color 0.2s;
+  }
+  .dark .exp-item::before {
+    background: #404040;
+    border-color: #171717;
+  }
+  .exp-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+  }
+  @media (min-width: 640px) {
+    .exp-header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  }
+  .exp-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 !important;
+  }
+  .exp-company {
+    font-size: 14px;
+    font-weight: 600;
+    color: #525252;
+    margin: 4px 0 !important;
+  }
+  .dark .exp-company {
+    color: #a3a3a3;
+  }
+  .exp-date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+  }
+  .dark .exp-date {
+    color: #a3a3a3;
+  }
+  .exp-desc {
+    margin-top: 8px !important;
+    padding-left: 20px;
+  }
+
+   
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .project-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.4);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .dark .project-card {
+    border-color: #262626;
+    background: rgba(23, 23, 23, 0.4);
+  }
+  .project-card:hover {
+    border-color: #a3a3a3;
+  }
+  .dark .project-card:hover {
+    border-color: #525252;
+  }
+  .project-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 8px 0 !important;
+  }
+  .project-card p {
+    font-size: 14px;
+    color: #525252;
+    margin: 0 0 16px 0 !important;
+    flex-grow: 1;
+    line-height: 1.5;
+  }
+  .dark .project-card p {
+    color: #d4d4d4;
+  }
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tech-tag {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 9999px;
+    background: #f5f5f5;
+    color: #404040;
+  }
+  .dark .tech-tag {
+    background: #262626;
+    color: #d4d4d4;
+  }
+
+   
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  @media (min-width: 640px) {
+    .skills-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  .skill-col h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #404040;
+    margin: 0 0 12px 0 !important;
+  }
+  .dark .skill-col h3 {
+    color: #d4d4d4;
+  }
+  .skill-col ul {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+  }
+  .skill-col li {
+    font-size: 14px;
+    color: #525252;
+    margin-bottom: 6px;
+  }
+  .dark .skill-col li {
+    color: #d4d4d4;
+  }
+
+   
+  .cta-section {
+    text-align: center;
+    padding-top: 32px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .dark .cta-section {
+    border-top-color: #262626;
+  }
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none !important;
+    background: #171717;
+    color: #ffffff !important;
+    transition: background 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+  .dark .btn-primary {
+    background: #f5f5f5;
+    color: #171717 !important;
+  }
+  .btn-primary:hover {
+    background: #404040;
+  }
+  .dark .btn-primary:hover {
+    background: #e5e5e5;
+  }
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none !important;
+    border: 1px solid #d4d4d4;
+    background: transparent;
+    color: #404040 !important;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .dark .btn-secondary {
+    border-color: #404040;
+    color: #d4d4d4 !important;
+  }
+  .btn-secondary:hover {
+    background: #fafafa;
+    border-color: #a3a3a3;
+  }
+  .dark .btn-secondary:hover {
+    background: #262626;
+    border-color: #737373;
+  }
+</style>
+
+
+<section class="hero-container">
+  <div style="flex: 1;">
+    <h1 style="font-size: 36px; font-weight: 800; margin: 0 0 8px 0 !important; letter-spacing: -0.02em;">Aditya Nawandhar</h1>
+    <p style="font-size: 18px; font-weight: 600; color: #525252; margin: 0 0 16px 0 !important;" class="dark:text-neutral-300">
+      CS & Math Student at Purdue University | Incoming Software Engineering Intern at Walmart
+    </p>
+    <p style="font-size: 16px; line-height: 1.6; color: #525252; margin: 0 !important;" class="dark:text-neutral-300">
+      Hi, I'm Aditya. I am a Computer Science and Mathematics undergraduate at Purdue University, with a passion for software systems, CI/CD optimization, and machine learning. I've designed distributed systems, automated hardware performance analysis workflows, and built developer infrastructure through my internships at Walmart, Intel, and ModalAI.
+    </p>
+    
+    
+    <div class="contact-links">
+      <a href="mailto:anawandh@purdue.edu">anawandh@purdue.edu</a>
+      <span style="color: #d4d4d4; font-weight: normal;">•</span>
+      <a href="https://www.linkedin.com/in/aditya-nawandhar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <span style="color: #d4d4d4; font-weight: normal;">•</span>
+      <a href="https://github.com/anawandh" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <span style="color: #d4d4d4; font-weight: normal;">•</span>
+      <a href="./documents/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
     </div>
+  </div>
+  
+  
+  
+    
+      
+    
+  
+  
+  <div class="avatar-wrapper">
+    <div class="avatar-box">
+      <img
+        src="./images/Aditya-Nawandhar.jpg"
+        alt="Aditya Nawandhar"
+      />
+    </div>
+  </div>
+  
+</section>
+
+
+<section class="portfolio-section">
+  <h2>Education</h2>
+  <div class="edu-item">
+    <div class="exp-header">
+      <h3 class="exp-title">Purdue University</h3>
+      <span class="exp-date">West Lafayette, IN</span>
+    </div>
+    <div class="exp-header" style="margin-top: 4px;">
+      <span style="font-weight: 600; font-size: 15px;">Bachelor of Science in Computer Science & Mathematics</span>
+      <span class="exp-date" style="font-weight: normal;">Expected May 2028</span>
+    </div>
+    <p style="margin: 8px 0 0 0 !important; color: #525252;" class="dark:text-neutral-300">
+      <strong>Leadership:</strong> Software Lead, Purdue IEEE ROV (Remotely Operated Vehicle) Team
+    </p>
+  </div>
+</section>
+
+
+<section class="portfolio-section">
+  <h2>Experience</h2>
+  <div class="experience-timeline">
     
     
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3 class="exp-title">Software Engineering Intern</h3>
+        <span class="exp-date">Jun 2026 – Aug 2026</span>
+      </div>
+      <p class="exp-company">Walmart Global Tech • Sunnyvale, CA</p>
+      <ul class="exp-desc">
+        <li>Incoming Software Engineering Intern at Walmart Global Tech.</li>
+      </ul>
+    </div>
+
+    
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3 class="exp-title">Software Engineering Intern</h3>
+        <span class="exp-date">May 2025 – Aug 2025</span>
+      </div>
+      <p class="exp-company">Intel Corporation • San Diego, CA</p>
+      <ul class="exp-desc">
+        <li>Reduced manual workload by 70% and cut runtime setup time by over 50% by automating GPU power estimation workflows using Python and the Jenkins API, integrating ZTDB/netlist data from 3+ external teams.</li>
+        <li>Parsed over 20GB of emulation data from GPU architecture workloads (e.g., Cyberpunk 2077) to extract and categorize 8,000+ clockgate and register cells based on functionality clusters to create clock tree structure.</li>
+        <li>Achieved a 30% reduction in design review time by creating dynamic PowerBI pivot tables and visualizations to identify inefficient register and clockgate placements and architectural bottlenecks.</li>
+        <li>Analyzed 10,000+ buffer and functional cells through a robust TCL script to extract physical placement data and other cell characteristics, uncovering 3+ high-latency paths/placements caused by suboptimal clustering.</li>
+      </ul>
+    </div>
+
+    
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3 class="exp-title">Software Engineering Intern</h3>
+        <span class="exp-date">Jun 2023 – Aug 2024</span>
+      </div>
+      <p class="exp-company">ModalAI Inc. • San Diego, CA</p>
+      <ul class="exp-desc">
+        <li>Increased test throughput by 500+ tests daily by optimizing the testing environment and CI/CD pipeline using Docker, Grafana, and Python scripts, enabling faster bug identification.</li>
+        <li>Saved 4+ hours of manual work weekly by automating production tasks with Python scripts that generate XLS files for DHL and FedEx shipping orders.</li>
+        <li>Handled 50% of the VOXL migration from LU1 to LU2.0 (Ubuntu 18 to 20) by using BitBake and C to set up GPIOs, enable wireless connectivity, and debug critical dependency errors.</li>
+      </ul>
+    </div>
+
+    
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3 class="exp-title">Software Intern</h3>
+        <span class="exp-date">Jun 2022 – Aug 2022</span>
+      </div>
+      <p class="exp-company">Shifting Orbits Foundation • Bangalore, India</p>
+      <ul class="exp-desc">
+        <li>Organized and cleaned large datasets using Excel, CSV files, and SQL, improving data accuracy and usability.</li>
+        <li>Eliminated garbage data and conducted data analysis using Python and the Pandas library, leading to actionable insights and data-driven conclusions.</li>
+        <li>Collaborated with software engineers to design and develop frontend web pages, enhancing user interface and experience.</li>
+      </ul>
+    </div>
     
   </div>
 </section>
 
 
-<section class="mb-16">
-  <h2 class="text-2xl font-bold border-b border-neutral-200 dark:border-neutral-800 pb-2 mb-6">Experience</h2>
-  <div class="space-y-8">
+<section class="portfolio-section">
+  <h2>Selected Projects</h2>
+  <div class="projects-grid">
     
     
-    <div class="relative pl-6 border-l-2 border-neutral-200 dark:border-neutral-800">
-      <div class="absolute w-3.5 h-3.5 bg-neutral-300 dark:bg-neutral-700 rounded-full -left-[8px] top-1.5 border-4 border-white dark:border-neutral-900"></div>
-      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
-        <h3 class="text-lg font-bold !my-0">Software Engineer</h3>
-        <span class="text-sm font-semibold text-neutral-500 dark:text-neutral-400">Present</span>
-      </div>
-      <p class="text-sm font-medium text-neutral-500 dark:text-neutral-400 !my-1">Company Name • Full-time</p>
-      <p class="text-neutral-600 dark:text-neutral-300 !mt-2">
-        Building next-generation web applications, optimizing backend architectures, and driving feature development. Working with technologies like React, Node.js, and cloud services.
+    <div class="project-card">
+      <h3>Bublur</h3>
+      <p>
+        A full stack social media platform where users contribute to community posts by writing responses to randomly assigned topics, handling user posts and interactions in real-time.
       </p>
-    </div>
-
-    
-    <div class="relative pl-6 border-l-2 border-neutral-200 dark:border-neutral-800">
-      <div class="absolute w-3.5 h-3.5 bg-neutral-300 dark:bg-neutral-700 rounded-full -left-[8px] top-1.5 border-4 border-white dark:border-neutral-900"></div>
-      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
-        <h3 class="text-lg font-bold !my-0">Software Engineering Intern</h3>
-        <span class="text-sm font-semibold text-neutral-500 dark:text-neutral-400">Summer 2025</span>
-      </div>
-      <p class="text-sm font-medium text-neutral-500 dark:text-neutral-400 !my-1">Previous Company • Internship</p>
-      <p class="text-neutral-600 dark:text-neutral-300 !mt-2">
-        Collaborated with the engineering team to design and implement new API endpoints. Improved application performance and wrote comprehensive test suites to increase coverage.
-      </p>
-    </div>
-    
-  </div>
-</section>
-
-
-<section class="mb-16">
-  <h2 class="text-2xl font-bold border-b border-neutral-200 dark:border-neutral-800 pb-2 mb-6">Selected Projects</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    
-    
-    <div class="flex flex-col p-5 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors duration-200 bg-white/40 dark:bg-neutral-900/40">
-      <h3 class="text-lg font-bold !my-0">Project Alpha</h3>
-      <p class="text-sm text-neutral-600 dark:text-neutral-300 !my-2 flex-grow">
-        A high-performance machine learning dashboard designed to visualize training metrics and track data pipelines in real-time.
-      </p>
-      <div class="flex flex-wrap gap-2 mt-2">
-        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Python</span>
-        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">React</span>
-        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">FastAPI</span>
+      <div class="tech-tags">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">Flask</span>
+        <span class="tech-tag">PostgreSQL</span>
+        <span class="tech-tag">GCP</span>
+        <span class="tech-tag">Tailwind</span>
       </div>
     </div>
 
     
-    <div class="flex flex-col p-5 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors duration-200 bg-white/40 dark:bg-neutral-900/40">
-      <h3 class="text-lg font-bold !my-0">Distributed Task Queue</h3>
-      <p class="text-sm text-neutral-600 dark:text-neutral-300 !my-2 flex-grow">
-        A lightweight distributed task scheduler built from scratch to manage microservice workflows with guaranteed delivery and retries.
+    <div class="project-card">
+      <h3>Investopedia Clone</h3>
+      <p>
+        A real-time stock simulator website. Integrates the Yahoo Finance API for stock tracking, and trains an LSTM deep learning model to predict prices (MSFT, AAPL) with 75-80% accuracy.
       </p>
-      <div class="flex flex-wrap gap-2 mt-2">
-        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Go</span>
-        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Redis</span>
-        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200">Docker</span>
+      <div class="tech-tags">
+        <span class="tech-tag">Java</span>
+        <span class="tech-tag">Spring Boot</span>
+        <span class="tech-tag">AWS RDS</span>
+        <span class="tech-tag">LSTM</span>
+        <span class="tech-tag">Tailwind</span>
       </div>
     </div>
 
@@ -298,50 +715,63 @@
 </section>
 
 
-<section class="mb-16">
-  <h2 class="text-2xl font-bold border-b border-neutral-200 dark:border-neutral-800 pb-2 mb-6">Skills & Technologies</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-    <div>
-      <h3 class="text-base font-bold text-neutral-800 dark:text-neutral-200 !my-0 uppercase tracking-wider">Languages</h3>
-      <ul class="list-none pl-0 space-y-1 text-sm text-neutral-600 dark:text-neutral-300">
+<section class="portfolio-section">
+  <h2>Skills & Technologies</h2>
+  <div class="skills-grid">
+    <div class="skill-col">
+      <h3>Languages</h3>
+      <ul>
+        <li>Java</li>
         <li>Python</li>
-        <li>Go</li>
-        <li>JavaScript / TypeScript</li>
-        <li>HTML5 / CSS3</li>
+        <li>C / C++</li>
+        <li>SQL (PostgreSQL)</li>
+        <li>JavaScript / HTML / CSS</li>
+        <li>R</li>
+        <li>Bash</li>
+        <li>SystemVerilog</li>
+        <li>TCL</li>
       </ul>
     </div>
-    <div>
-      <h3 class="text-base font-bold text-neutral-800 dark:text-neutral-200 !my-0 uppercase tracking-wider">Frameworks & Libs</h3>
-      <ul class="list-none pl-0 space-y-1 text-sm text-neutral-600 dark:text-neutral-300">
-        <li>React / Next.js</li>
-        <li>Node.js / Express</li>
+    <div class="skill-col">
+      <h3>Frameworks</h3>
+      <ul>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Flask</li>
+        <li>Spring Boot</li>
         <li>Tailwind CSS</li>
-        <li>PyTorch / Scikit-learn</li>
+        <li>Sails.js</li>
+        <li>FastAPI</li>
       </ul>
     </div>
-    <div>
-      <h3 class="text-base font-bold text-neutral-800 dark:text-neutral-200 !my-0 uppercase tracking-wider">Tools & Infra</h3>
-      <ul class="list-none pl-0 space-y-1 text-sm text-neutral-600 dark:text-neutral-300">
+    <div class="skill-col">
+      <h3>Tools & Infra</h3>
+      <ul>
         <li>Git & GitHub</li>
-        <li>Docker / Containers</li>
-        <li>AWS / Google Cloud</li>
-        <li>SQL / NoSQL Databases</li>
+        <li>Docker</li>
+        <li>Google Cloud Platform (GCP)</li>
+        <li>AWS</li>
+        <li>BitBake</li>
+        <li>Firebase</li>
+        <li>PowerBI</li>
+        <li>Agile / Scrum</li>
+        <li>CI/CD & TDD</li>
       </ul>
     </div>
   </div>
 </section>
 
 
-<section class="text-center pt-8 border-t border-neutral-200 dark:border-neutral-800">
-  <p class="text-lg text-neutral-600 dark:text-neutral-300">
-    Want to talk about collaboration or projects? 
+<section class="cta-section">
+  <p style="font-size: 18px; color: #525252;" class="dark:text-neutral-300">
+    Want to talk about collaboration or opportunities? 
   </p>
-  <div class="flex justify-center gap-4 mt-4">
-    <a href="/contact/" class="inline-flex items-center px-4 py-2 border border-neutral-300 dark:border-neutral-700 rounded-md shadow-sm text-sm font-medium text-neutral-700 dark:text-neutral-200 bg-white dark:bg-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-500 no-underline">
+  <div class="cta-buttons">
+    <a href="./contact/" class="btn-secondary">
       Get in Touch
     </a>
-    <a href="/post/" class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-neutral-900 dark:bg-neutral-100 dark:text-neutral-900 hover:bg-neutral-800 dark:hover:bg-neutral-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-500 no-underline">
-      Read My Blog
+    <a href="./post/" class="btn-primary">
+      Read My Blogs
     </a>
   </div>
 </section>
