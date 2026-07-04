@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>index on Aditya Nawandhar</title>
-    <link>http://example.org/tags/index/</link>
-    <description>Recent content in index on Aditya Nawandhar</description>
+    <title>Index on Aditya Nawandhar</title>
+    <link>http://localhost:1313/tags/index/</link>
+    <description>Recent content in Index on Aditya Nawandhar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Posts</title>
-      <link>http://example.org/post/</link>
-      <pubDate>Mon, 21 Jul 2025 23:24:13 +0000</pubDate>
-      
-      <guid>http://example.org/post/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

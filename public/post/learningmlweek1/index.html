@@ -35,7 +35,7 @@
   style="--bg: #faf8f1"
   lang="en-us"
 >
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta
@@ -64,14 +64,14 @@ Machine Learning Start: ML = Using Data to Answer Questions Most important part 
   
   
   
-  <link rel="preload stylesheet" as="style" href="http://example.org/main.min.css" />
+  <link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
   
   
   
   
-  <link rel="preload" as="image" href="http://example.org/theme.png" />
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
 
   
   
@@ -87,7 +87,7 @@ Machine Learning Start: ML = Using Data to Answer Questions Most important part 
   
   <script
     defer
-    src="http://example.org/highlight.min.js"
+    src="http://localhost:1313/highlight.min.js"
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   
@@ -97,52 +97,23 @@ Machine Learning Start: ML = Using Data to Answer Questions Most important part 
   
 
   
-  <link rel="icon" href="http://example.org/favicon.ico" />
-  <link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png" />
+  <link rel="icon" href="http://localhost:1313/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png" />
 
   
-  <meta name="generator" content="Hugo 0.111.3">
+  <meta name="generator" content="Hugo 0.123.7">
 
   
-  
-  
-  
-  
-  <meta itemprop="name" content="Learning ML Week 1">
-<meta itemprop="description" content="Learning ML Week 1 This notebook contains my learnings from week one of experiencing the world of ML
-Machine Learning Start: ML = Using Data to Answer Questions Most important part needed for ML: Data Quality and Quantity of Data is very imp Steps: Data Gathering: Get the data somehow Data Preparation: Data imbalances needs to be not present Data is split into two parts: Training Evaluation Choosing a Model For simplicity where only one or two features."><meta itemprop="datePublished" content="2025-07-21T23:24:13+00:00" />
-<meta itemprop="dateModified" content="2025-07-21T23:24:13+00:00" />
-<meta itemprop="wordCount" content="409">
-<meta itemprop="keywords" content="jupyter,data-science," />
-  
-  <meta property="og:title" content="Learning ML Week 1" />
-<meta property="og:description" content="Learning ML Week 1 This notebook contains my learnings from week one of experiencing the world of ML
-Machine Learning Start: ML = Using Data to Answer Questions Most important part needed for ML: Data Quality and Quantity of Data is very imp Steps: Data Gathering: Get the data somehow Data Preparation: Data imbalances needs to be not present Data is split into two parts: Training Evaluation Choosing a Model For simplicity where only one or two features." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/post/learningmlweek1/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2025-07-21T23:24:13+00:00" />
-<meta property="article:modified_time" content="2025-07-21T23:24:13+00:00" />
-
-  
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Learning ML Week 1"/>
-<meta name="twitter:description" content="Learning ML Week 1 This notebook contains my learnings from week one of experiencing the world of ML
-Machine Learning Start: ML = Using Data to Answer Questions Most important part needed for ML: Data Quality and Quantity of Data is very imp Steps: Data Gathering: Get the data somehow Data Preparation: Data imbalances needs to be not present Data is split into two parts: Training Evaluation Choosing a Model For simplicity where only one or two features."/>
-
-  
-  
-  
-  <link rel="canonical" href="http://example.org/post/learningmlweek1/" />
   
   
 </head>
 
   <body class="text-black duration-200 ease-out dark:text-white">
-    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+    <header class="mx-auto flex h-[4.5rem] px-8 lg:justify-center" style="max-width: 1280px;">
   <div class="relative z-50 mr-auto flex items-center">
     <a
       class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
-      href="http://example.org/"
+      href="http://localhost:1313/"
       >Aditya Nawandhar</a
     >
     <div
@@ -212,6 +183,12 @@ Machine Learning Start: ML = Using Data to Answer Questions Most important part 
       
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/post/"
+        >Blogs</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
         href="/about/"
         >About</a
       >
@@ -232,7 +209,8 @@ Machine Learning Start: ML = Using Data to Answer Questions Most important part 
 
     
     <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] px-8 pb-16 pt-12 dark:prose-invert"
+      style="max-width: 1280px;"
     >
       
 
@@ -360,13 +338,13 @@ Machine Learning Start: ML = Using Data to Answer Questions Most important part 
      
     <a
       class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
-      href="http://example.org/tags/jupyter"
+      href="http://localhost:1313/tags/jupyter"
       >jupyter</a
     >
      
     <a
       class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
-      href="http://example.org/tags/data-science"
+      href="http://localhost:1313/tags/data-science"
       >data-science</a
     >
     
@@ -381,14 +359,14 @@ Machine Learning Start: ML = Using Data to Answer Questions Most important part 
     
     <a
       class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="http://example.org/post/placeholder-text/"
+      href="http://localhost:1313/post/placeholder-text/"
       ><span class="mr-1.5">←</span><span>Placeholder Text</span></a
     >
     
     
     <a
       class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="http://example.org/post/test/"
+      href="http://localhost:1313/post/test/"
       ><span>Data Analysis with Python: Sales Dashboard Example</span><span class="ml-1.5">→</span></a
     >
     
@@ -412,11 +390,12 @@ Machine Learning Start: ML = Using Data to Answer Questions Most important part 
     </main>
 
     <footer
-  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+  class="opaco mx-auto flex h-[4.5rem] items-center px-8 text-[0.9em] opacity-60"
+  style="max-width: 1280px;"
 >
   <div class="mr-auto">
-    &copy; 2025
-    <a class="link" href="http://example.org/">Aditya Nawandhar</a>
+    &copy; 2026
+    <a class="link" href="http://localhost:1313/">Aditya Nawandhar</a>
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
     >Powered by Hugo️️</a

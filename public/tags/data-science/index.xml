@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data-science on Aditya Nawandhar</title>
-    <link>http://example.org/tags/data-science/</link>
-    <description>Recent content in data-science on Aditya Nawandhar</description>
+    <title>Data-Science on Aditya Nawandhar</title>
+    <link>http://localhost:1313/tags/data-science/</link>
+    <description>Recent content in Data-Science on Aditya Nawandhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 23:24:13 +0000</lastBuildDate><atom:link href="http://example.org/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jul 2025 23:24:13 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning ML Week 1</title>
-      <link>http://example.org/post/learningmlweek1/</link>
+      <link>http://localhost:1313/post/learningmlweek1/</link>
       <pubDate>Mon, 21 Jul 2025 23:24:13 +0000</pubDate>
-      
-      <guid>http://example.org/post/learningmlweek1/</guid>
-      <description>Learning ML Week 1 This notebook contains my learnings from week one of experiencing the world of ML
-Machine Learning Start: ML = Using Data to Answer Questions Most important part needed for ML: Data Quality and Quantity of Data is very imp Steps: Data Gathering: Get the data somehow Data Preparation: Data imbalances needs to be not present Data is split into two parts: Training Evaluation Choosing a Model For simplicity where only one or two features.</description>
+      <guid>http://localhost:1313/post/learningmlweek1/</guid>
+      <description>Learning ML Week 1 This notebook contains my learnings from week one of experiencing the world of ML&#xA;Machine Learning Start: ML = Using Data to Answer Questions Most important part needed for ML: Data Quality and Quantity of Data is very imp Steps: Data Gathering: Get the data somehow Data Preparation: Data imbalances needs to be not present Data is split into two parts: Training Evaluation Choosing a Model For simplicity where only one or two features.</description>
     </item>
-    
     <item>
       <title>Data Analysis with Python: Sales Dashboard Example</title>
-      <link>http://example.org/post/test/</link>
+      <link>http://localhost:1313/post/test/</link>
       <pubDate>Mon, 21 Jul 2025 22:48:55 +0000</pubDate>
-      
-      <guid>http://example.org/post/test/</guid>
-      <description>Data Analysis with Python: Sales Dashboard Example This notebook demonstrates how to create a simple sales data analysis that will be converted to a Hugo blog post. We&amp;rsquo;ll explore some sample sales data and create visualizations.
-Introduction In this analysis, we&amp;rsquo;ll:
-Generate sample sales data Perform basic statistical analysis Create visualizations Draw insights from the data This is a great example of how Jupyter notebooks can be used to create data-driven blog posts that combine code, analysis, and narrative.</description>
+      <guid>http://localhost:1313/post/test/</guid>
+      <description>Data Analysis with Python: Sales Dashboard Example This notebook demonstrates how to create a simple sales data analysis that will be converted to a Hugo blog post. We&amp;rsquo;ll explore some sample sales data and create visualizations.&#xA;Introduction In this analysis, we&amp;rsquo;ll:&#xA;Generate sample sales data Perform basic statistical analysis Create visualizations Draw insights from the data This is a great example of how Jupyter notebooks can be used to create data-driven blog posts that combine code, analysis, and narrative.</description>
     </item>
-    
   </channel>
 </rss>

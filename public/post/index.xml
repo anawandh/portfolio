@@ -1,78 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Aditya Nawandhar</title>
-    <link>http://example.org/post/</link>
-    <description>Recent content in Posts on Aditya Nawandhar</description>
+    <title>Blogs on Aditya Nawandhar</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Blogs on Aditya Nawandhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 23:24:13 +0000</lastBuildDate><atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jul 2025 23:24:13 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Placeholder Text</title>
-      <link>http://example.org/post/placeholder-text/</link>
+      <link>http://localhost:1313/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/post/placeholder-text/</guid>
+      <guid>http://localhost:1313/post/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learning ML Week 1</title>
-      <link>http://example.org/post/learningmlweek1/</link>
+      <link>http://localhost:1313/post/learningmlweek1/</link>
       <pubDate>Mon, 21 Jul 2025 23:24:13 +0000</pubDate>
-      
-      <guid>http://example.org/post/learningmlweek1/</guid>
-      <description>Learning ML Week 1 This notebook contains my learnings from week one of experiencing the world of ML
-Machine Learning Start: ML = Using Data to Answer Questions Most important part needed for ML: Data Quality and Quantity of Data is very imp Steps: Data Gathering: Get the data somehow Data Preparation: Data imbalances needs to be not present Data is split into two parts: Training Evaluation Choosing a Model For simplicity where only one or two features.</description>
+      <guid>http://localhost:1313/post/learningmlweek1/</guid>
+      <description>Learning ML Week 1 This notebook contains my learnings from week one of experiencing the world of ML&#xA;Machine Learning Start: ML = Using Data to Answer Questions Most important part needed for ML: Data Quality and Quantity of Data is very imp Steps: Data Gathering: Get the data somehow Data Preparation: Data imbalances needs to be not present Data is split into two parts: Training Evaluation Choosing a Model For simplicity where only one or two features.</description>
     </item>
-    
     <item>
       <title>Data Analysis with Python: Sales Dashboard Example</title>
-      <link>http://example.org/post/test/</link>
+      <link>http://localhost:1313/post/test/</link>
       <pubDate>Mon, 21 Jul 2025 22:48:55 +0000</pubDate>
-      
-      <guid>http://example.org/post/test/</guid>
-      <description>Data Analysis with Python: Sales Dashboard Example This notebook demonstrates how to create a simple sales data analysis that will be converted to a Hugo blog post. We&amp;rsquo;ll explore some sample sales data and create visualizations.
-Introduction In this analysis, we&amp;rsquo;ll:
-Generate sample sales data Perform basic statistical analysis Create visualizations Draw insights from the data This is a great example of how Jupyter notebooks can be used to create data-driven blog posts that combine code, analysis, and narrative.</description>
+      <guid>http://localhost:1313/post/test/</guid>
+      <description>Data Analysis with Python: Sales Dashboard Example This notebook demonstrates how to create a simple sales data analysis that will be converted to a Hugo blog post. We&amp;rsquo;ll explore some sample sales data and create visualizations.&#xA;Introduction In this analysis, we&amp;rsquo;ll:&#xA;Generate sample sales data Perform basic statistical analysis Create visualizations Draw insights from the data This is a great example of how Jupyter notebooks can be used to create data-driven blog posts that combine code, analysis, and narrative.</description>
     </item>
-    
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://example.org/post/markdown-syntax/</link>
+      <link>http://localhost:1313/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/post/markdown-syntax/</guid>
+      <guid>http://localhost:1313/post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rich Content</title>
-      <link>http://example.org/post/rich-content/</link>
+      <link>http://localhost:1313/post/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+      <guid>http://localhost:1313/post/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
     </item>
-    
     <item>
       <title>Math Typesetting</title>
-      <link>http://example.org/post/math-typesetting/</link>
+      <link>http://localhost:1313/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/post/math-typesetting/</guid>
+      <guid>http://localhost:1313/post/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Emoji Support</title>
-      <link>http://example.org/post/emoji-support/</link>
+      <link>http://localhost:1313/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/post/emoji-support/</guid>
+      <guid>http://localhost:1313/post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
