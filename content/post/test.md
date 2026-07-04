@@ -8,7 +8,7 @@ categories: ["blog"]
 
 # Data Analysis with Python: Sales Dashboard Example
 
-This notebook demonstrates how to create a simple sales data analysis that will be converted to a Hugo blog post. We'll explore some sample sales data and create visualizations.
+This notebook demonstrates how to create a simple sales data analysis that will be converted to a blog post. We'll explore some sample sales data and create visualizations.
 
 ## Introduction
 

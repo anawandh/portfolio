@@ -20,7 +20,7 @@
       <link>http://localhost:1313/post/test/</link>
       <pubDate>Mon, 21 Jul 2025 22:48:55 +0000</pubDate>
       <guid>http://localhost:1313/post/test/</guid>
-      <description>Data Analysis with Python: Sales Dashboard Example This notebook demonstrates how to create a simple sales data analysis that will be converted to a Hugo blog post. We&amp;rsquo;ll explore some sample sales data and create visualizations.&#xA;Introduction In this analysis, we&amp;rsquo;ll:&#xA;Generate sample sales data Perform basic statistical analysis Create visualizations Draw insights from the data This is a great example of how Jupyter notebooks can be used to create data-driven blog posts that combine code, analysis, and narrative.</description>
+      <description>Data Analysis with Python: Sales Dashboard Example This notebook demonstrates how to create a simple sales data analysis that will be converted to a blog post. We&amp;rsquo;ll explore some sample sales data and create visualizations.&#xA;Introduction In this analysis, we&amp;rsquo;ll:&#xA;Generate sample sales data Perform basic statistical analysis Create visualizations Draw insights from the data This is a great example of how Jupyter notebooks can be used to create data-driven blog posts that combine code, analysis, and narrative.</description>
     </item>
   </channel>
 </rss>

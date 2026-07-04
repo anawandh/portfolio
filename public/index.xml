@@ -6,14 +6,21 @@
     <description>Recent content on Aditya Nawandhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 23:24:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hi! I&amp;rsquo;m Aditya Nawandhar, a Computer Science and Mathematics student at Purdue University. I am passionate about engineering software systems, designing performant backend architectures, and exploring machine learning applications.&#xA;About Me I enjoy solving complex technical problems and building robust systems. Over the course of my academic journey and professional internships, I have gained hands-on experience in full-stack development, automating hardware estimation environments, and streamlining CI/CD pipelines.&#xA;Academic Background Purdue University (Expected Graduation: May 2028) B.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>I would love to connect! Feel free to reach out to me through any of the following channels:&#xA;Email: anawandh@purdue.edu Phone: 858-216-0106 LinkedIn: linkedin.com/in/aditya-nawandhar GitHub: github.com/anawandh </description>
     </item>
     <item>
       <title>Learning ML Week 1</title>
@@ -27,7 +34,7 @@
       <link>http://localhost:1313/post/test/</link>
       <pubDate>Mon, 21 Jul 2025 22:48:55 +0000</pubDate>
       <guid>http://localhost:1313/post/test/</guid>
-      <description>Data Analysis with Python: Sales Dashboard Example This notebook demonstrates how to create a simple sales data analysis that will be converted to a Hugo blog post. We&amp;rsquo;ll explore some sample sales data and create visualizations.&#xA;Introduction In this analysis, we&amp;rsquo;ll:&#xA;Generate sample sales data Perform basic statistical analysis Create visualizations Draw insights from the data This is a great example of how Jupyter notebooks can be used to create data-driven blog posts that combine code, analysis, and narrative.</description>
+      <description>Data Analysis with Python: Sales Dashboard Example This notebook demonstrates how to create a simple sales data analysis that will be converted to a blog post. We&amp;rsquo;ll explore some sample sales data and create visualizations.&#xA;Introduction In this analysis, we&amp;rsquo;ll:&#xA;Generate sample sales data Perform basic statistical analysis Create visualizations Draw insights from the data This is a great example of how Jupyter notebooks can be used to create data-driven blog posts that combine code, analysis, and narrative.</description>
     </item>
     <item>
       <title></title>
@@ -35,48 +42,6 @@
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/archives/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>You can view or download my Resume or view my Profile Picture.&#xA;Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description> github.com/nanxiaobei lee.so </description>
     </item>
   </channel>
 </rss>

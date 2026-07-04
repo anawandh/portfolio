@@ -1,27 +1,29 @@
 +++
 title = "About"
-description = "About me"
-date = "2019-02-28"
-aliases = ["about-us", "contact"]
+description = "About Aditya Nawandhar - Software Engineer and CS/Math student at Purdue University"
+date = "2026-07-04"
 author = "Aditya Nawandhar"
 +++
 
-You can view or download my [Resume](/documents/resume.pdf) or view my [Profile Picture](/images/Aditya-Nawandhar.jpg).
+Hi! I'm **Aditya Nawandhar**, a Computer Science and Mathematics student at Purdue University. I am passionate about engineering software systems, designing performant backend architectures, and exploring machine learning applications.
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+### About Me
+I enjoy solving complex technical problems and building robust systems. Over the course of my academic journey and professional internships, I have gained hands-on experience in full-stack development, automating hardware estimation environments, and streamlining CI/CD pipelines.
 
-Hugo makes use of a variety of open source projects including:
+### Academic Background
+* **Purdue University** (Expected Graduation: May 2028)
+  * B.S. in Computer Science & Mathematics
+  * Software Lead, Purdue IEEE ROV (Remotely Operated Vehicle) Team
 
-- https://github.com/yuin/goldmark
-- https://github.com/alecthomas/chroma
-- https://github.com/muesli/smartcrop
-- https://github.com/spf13/cobra
-- https://github.com/spf13/viper
+### Professional Highlights
+* **Walmart Global Tech** — Incoming Software Engineering Intern (Summer 2026)
+* **Intel Corporation** — Software Engineering Intern (Summer 2025)
+* **ModalAI Inc.** — Software Engineering Intern (2023 - 2024)
+* **Shifting Orbits Foundation** — Software Intern (Summer 2022)
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+---
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+### Static Assets
+Feel free to check my assets:
+* [My Resume](/documents/resume.pdf)
+* [My Profile Picture](/images/avatar.jpg)

@@ -1,10 +1,13 @@
 +++
 title = "Contact"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "lee.so"
+description = "Contact Aditya Nawandhar"
+date = "2026-07-04"
+author = "Aditya Nawandhar"
 +++
 
-- [github.com/nanxiaobei](https://github.com/nanxiaobei)
-- [lee.so](https://lee.so)
+I would love to connect! Feel free to reach out to me through any of the following channels:
+
+* **Email:** [anawandh@purdue.edu](mailto:anawandh@purdue.edu)
+* **Phone:** [858-216-0106](tel:858-216-0106)
+* **LinkedIn:** [linkedin.com/in/aditya-nawandhar](https://www.linkedin.com/in/aditya-nawandhar)
+* **GitHub:** [github.com/anawandh](https://github.com/anawandh)
