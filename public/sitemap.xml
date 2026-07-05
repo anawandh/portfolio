@@ -3,7 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/full-stack/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/index/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/portfolio/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/robotics/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/systems/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/project-showcase/</loc>
+    <lastmod>2026-07-05T16:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
@@ -14,25 +47,13 @@
     <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2025-07-21T23:24:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/data-science/</loc>
-    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/index/</loc>
     <lastmod>2025-07-21T23:24:13+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/jupyter/</loc>
     <lastmod>2025-07-21T23:24:13+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/learningmlweek1/</loc>
-    <lastmod>2025-07-21T23:24:13+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-07-21T23:24:13+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/test/</loc>

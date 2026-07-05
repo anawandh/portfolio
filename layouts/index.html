@@ -231,6 +231,38 @@
     color: #d4d4d4;
   }
 
+  /* Project Link Styles */
+  .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    border-top: 1px dashed #e5e5e5;
+    padding-top: 12px;
+  }
+  .dark .project-links {
+    border-top-color: #262626;
+  }
+  .project-links a {
+    text-decoration: none !important;
+    color: #525252 !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: color 0.2s;
+  }
+  .dark .project-links a {
+    color: #a3a3a3 !important;
+  }
+  .project-links a:hover {
+    color: #000000 !important;
+  }
+  .dark .project-links a:hover {
+    color: #ffffff !important;
+  }
+
   /* Skills Grid */
   .skills-grid {
     display: grid;
@@ -462,11 +494,69 @@
   <h2>Selected Projects</h2>
   <div class="projects-grid">
     
+    <!-- Purdue IEEE ROV -->
+    <div class="project-card">
+      <h3>Purdue IEEE ROV (X18 Core & Surface)</h3>
+      <p>
+        Guided software development for an underwater vehicle. Designed real-time ROS2 nodes on Raspberry Pi 4 communicating with STM32 microcontrollers via custom, CRC-32 validated UART packets, alongside a dashboard for telemetry and camera stream ingestion.
+      </p>
+      <div class="tech-tags">
+        <span class="tech-tag">ROS2</span>
+        <span class="tech-tag">C++</span>
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">UART</span>
+        <span class="tech-tag">Raspberry Pi</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/purduerov" target="_blank" rel="noopener noreferrer">Organization</a>
+        <a href="https://github.com/purduerov/X18-Core" target="_blank" rel="noopener noreferrer">Core/Backend</a>
+        <a href="https://github.com/purduerov/X18-Surface" target="_blank" rel="noopener noreferrer">Surface/Frontend</a>
+      </div>
+    </div>
+
+    <!-- Spotify Del Norte -->
+    <div class="project-card">
+      <h3>Spotify Del Norte</h3>
+      <p>
+        A full-featured music streaming clone. Resolved complex cross-origin session authorization challenges by engineering a secure JWT authentication flow stored in secure HttpOnly cookies to mitigate XSS vulnerabilities.
+      </p>
+      <div class="tech-tags">
+        <span class="tech-tag">Node.js</span>
+        <span class="tech-tag">Express</span>
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">JWT</span>
+        <span class="tech-tag">Tailwind</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/aidenhuynh/cj_frontend" target="_blank" rel="noopener noreferrer">Frontend</a>
+        <a href="https://github.com/aidenhuynh/cj_backend" target="_blank" rel="noopener noreferrer">Backend</a>
+      </div>
+    </div>
+
+    <!-- Investopedia Clone -->
+    <div class="project-card">
+      <h3>Investopedia Clone</h3>
+      <p>
+        A stock simulator platform replicating the Investopedia trading experience. Integrated Yahoo Finance API for real-time tracking and trained an LSTM deep learning model to forecast price paths (AAPL, MSFT) with 75-80% accuracy.
+      </p>
+      <div class="tech-tags">
+        <span class="tech-tag">Java</span>
+        <span class="tech-tag">Spring Boot</span>
+        <span class="tech-tag">AWS RDS</span>
+        <span class="tech-tag">LSTM</span>
+        <span class="tech-tag">Tailwind</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/CSA-AI/CSA_AI_Frontend" target="_blank" rel="noopener noreferrer">Frontend</a>
+        <a href="https://github.com/CSA-AI/CSA_AI_Backend" target="_blank" rel="noopener noreferrer">Backend</a>
+      </div>
+    </div>
+
     <!-- Bublur -->
     <div class="project-card">
       <h3>Bublur</h3>
       <p>
-        A full stack social media platform where users contribute to community posts by writing responses to randomly assigned topics, handling user posts and interactions in real-time.
+        A collaborative real-time social platform where users submit answers to random topics. Structured REST APIs for community posts and deployed backend database indexing for performance on Google Cloud.
       </p>
       <div class="tech-tags">
         <span class="tech-tag">Python</span>
@@ -475,20 +565,8 @@
         <span class="tech-tag">GCP</span>
         <span class="tech-tag">Tailwind</span>
       </div>
-    </div>
-
-    <!-- Investopedia Clone -->
-    <div class="project-card">
-      <h3>Investopedia Clone</h3>
-      <p>
-        A real-time stock simulator website. Integrates the Yahoo Finance API for stock tracking, and trains an LSTM deep learning model to predict prices (MSFT, AAPL) with 75-80% accuracy.
-      </p>
-      <div class="tech-tags">
-        <span class="tech-tag">Java</span>
-        <span class="tech-tag">Spring Boot</span>
-        <span class="tech-tag">AWS RDS</span>
-        <span class="tech-tag">LSTM</span>
-        <span class="tech-tag">Tailwind</span>
+      <div class="project-links">
+        <a href="https://github.com/orgs/Crimson-Nebula/repositories" target="_blank" rel="noopener noreferrer">Organization Repositories</a>
       </div>
     </div>
 

@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Aditya Nawandhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 23:24:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 16:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Projects Showcase: Deep Dive into Systems, ML, and Full-Stack Architecture</title>
+      <link>http://localhost:1313/post/project-showcase/</link>
+      <pubDate>Sun, 05 Jul 2026 16:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/project-showcase/</guid>
+      <description>Consolidation of Key Technical Projects: A Deep Dive Welcome to my project showcase! As a Computer Science and Mathematics student at Purdue University, my work spans distributed backend services, real-time robotics codebases, full-stack web applications, and machine learning models.&#xA;This post acts as a consolidated deep dive into four of my primary technical projects, detailing the architecture, challenges, and implementation methodologies behind each.&#xA;1. Purdue IEEE ROV (Remotely Operated Vehicle) Software Lead | ROS2, C++, Python, UART, Raspberry Pi, STM32</description>
+    </item>
     <item>
       <title>Learning ML Week 1</title>
       <link>http://localhost:1313/post/learningmlweek1/</link>
